@@ -15,14 +15,14 @@
     <th>brand</th>
     <th>color</th>
     <th>power/th>
-  </tr>
 
-  <tr th:each="lst : ${list}">
-    <td th:utext="${lst.brand}">brand</td>
-    <td th:utext="${lst.color}">color</td>
-    <td th:utext="${lst.power}">power</td>
   </tr>
+    <tr th:each="lst : ${list}">
+        <td th:utext="${lst.brand}">brand</td>
+        <td th:utext="${lst.color}">color</td>
+        <td th:utext="${lst.power}">power</td>
 
+    </tr>
 </table>
 
 </body>
